@@ -1,0 +1,13 @@
+{
+  "id" : "https://MuhammadFarhanAlkautsar.github.io/ALKA-Project/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in MuhammadFarhanAlkautsar/ALKA-Project project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://MuhammadFarhanAlkautsar.github.io/ALKA-Project/manifests/HikayatAceh.json",
+    "label" : "Hikayat Aceh"
+  } ]
+}
