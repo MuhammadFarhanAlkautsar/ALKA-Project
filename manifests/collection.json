@@ -9,5 +9,11 @@
     "@type" : "sc:Manifest",
     "@id" : "https://MuhammadFarhanAlkautsar.github.io/ALKA-Project/manifests/HikayatAceh.json",
     "label" : "Hikayat Aceh"
+  }, {
+    "id" : "https://MuhammadFarhanAlkautsar.github.io/ALKA-Project/manifests/Hikayat.json",
+    "label" : {
+      "en" : [ "Hikayat_Aceh" ]
+    },
+    "type" : "Manifest"
   } ]
 }
