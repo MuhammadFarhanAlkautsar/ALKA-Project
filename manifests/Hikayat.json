@@ -1,0 +1,3172 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://MuhammadFarhanAlkautsar.github.io/ALKA-Project/manifests/Hikayat.json",
+  "type" : "Manifest",
+  "behavior" : [ "individuals" ],
+  "label" : {
+    "en" : [ "Hikayat_Aceh" ]
+  },
+  "thumbnail" : [ {
+    "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_051.jpg/full/max/0/default.jpg",
+    "type" : "Image",
+    "format" : "image/jpeg",
+    "height" : 1650,
+    "width" : 1275,
+    "service" : [ {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_051.jpg",
+      "protocol" : "http://iiif.io/api/image",
+      "width" : 1275,
+      "height" : 1650,
+      "sizes" : [ {
+        "width" : 80,
+        "height" : 103
+      }, {
+        "width" : 159,
+        "height" : 206
+      }, {
+        "width" : 319,
+        "height" : 413
+      }, {
+        "width" : 638,
+        "height" : 825
+      }, {
+        "width" : 1275,
+        "height" : 1650
+      } ],
+      "tiles" : [ {
+        "width" : 512,
+        "height" : 512,
+        "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+      } ],
+      "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+        "formats" : [ "tif", "jpg", "gif", "png" ],
+        "maxArea" : 2103750,
+        "qualities" : [ "bitonal", "default", "gray", "color" ],
+        "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+      } ],
+      "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_051.jpg"
+    } ]
+  } ],
+  "items" : [ {
+    "id" : "/config/manifest-templates/blank.json/canvas/64ab62e6-1353-40e9-a851-e9c519fdfd97",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Deskripsi_001" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/64ab62e6-1353-40e9-a851-e9c519fdfd97/annotation-page/bcae3284-d507-40ae-8126-3f41594bfb12",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/61726c5d-fe42-4953-821d-31f8f569ec78",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/64ab62e6-1353-40e9-a851-e9c519fdfd97",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_051.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_051.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_051.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/9d434c21-fef8-41d9-871d-ffbccd6f6079",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Deskripsi_002" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/9d434c21-fef8-41d9-871d-ffbccd6f6079/annotation-page/cfcea103-0c9e-4149-91e0-fa295b80e03a",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/83a71f89-0e6c-4ac6-a5d9-ec26117dd6a8",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/9d434c21-fef8-41d9-871d-ffbccd6f6079",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_052.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_052.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_052.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/667c6ee6-5eaf-4605-8a39-59ff6ad92f20",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page001" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/667c6ee6-5eaf-4605-8a39-59ff6ad92f20/annotation-page/64828c3e-96a5-4175-ae5f-46ab530c7403",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/279d02ff-49e5-4489-9fc7-ec0a5d19f9cd",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/667c6ee6-5eaf-4605-8a39-59ff6ad92f20",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_001.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_001.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_001.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/456de082-8add-470b-83e9-df58677364be",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page002" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/456de082-8add-470b-83e9-df58677364be/annotation-page/69b16256-9767-4f6c-b21b-07e6939de1ae",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/3fc8f300-5146-4f89-aed1-1bf8d7fe3457",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/456de082-8add-470b-83e9-df58677364be",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_002.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_002.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_002.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/20f73508-e802-4584-9d5d-7bc8b4f5525d",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page003" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/20f73508-e802-4584-9d5d-7bc8b4f5525d/annotation-page/028daef8-178d-4e29-a0b4-d8f34313f247",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/ad2f7251-a890-4eaf-a93f-8873a4c11f79",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/20f73508-e802-4584-9d5d-7bc8b4f5525d",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_003.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_003.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_003.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/676a9cc9-2d12-4396-abb2-cecf58a3b344",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page004" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/676a9cc9-2d12-4396-abb2-cecf58a3b344/annotation-page/09191dea-8d2f-4ba1-a75d-a20401c5f447",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/c5356120-5ccd-4387-867b-51e55da8489c",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/676a9cc9-2d12-4396-abb2-cecf58a3b344",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_004.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_004.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_004.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/bedec19e-7ad6-44ca-9fcd-b8a800dbe30a",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page005" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/bedec19e-7ad6-44ca-9fcd-b8a800dbe30a/annotation-page/5a6d49d7-4fa1-4b8a-9efc-ecb006bfc740",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/609046e8-e0db-4413-9cb7-c3e9b4c00986",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/bedec19e-7ad6-44ca-9fcd-b8a800dbe30a",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_005.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_005.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_005.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/f9b938cf-852d-499e-8e63-65d2f95ca4c3",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page006" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/f9b938cf-852d-499e-8e63-65d2f95ca4c3/annotation-page/73818db1-f8b4-4430-b2fd-39af9f41d5b6",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/fcb5d29b-ec81-438b-8632-66e4e9afcecc",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/f9b938cf-852d-499e-8e63-65d2f95ca4c3",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_006.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_006.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_006.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/7f924717-dbbf-4fe0-9d4a-6d8ef6f00ce9",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page007" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/7f924717-dbbf-4fe0-9d4a-6d8ef6f00ce9/annotation-page/99c021e4-a960-431f-85a1-638d42fd9a81",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/6f3e02aa-d936-4c58-a309-26ab4c533037",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/7f924717-dbbf-4fe0-9d4a-6d8ef6f00ce9",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_007.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_007.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_007.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/0cb75b36-0938-492d-9c68-a1db3b181691",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page008" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/0cb75b36-0938-492d-9c68-a1db3b181691/annotation-page/9d627330-cb67-4952-8f77-2e13710db6f6",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/82f7573b-45ea-46ec-bda8-91f93c8857c5",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/0cb75b36-0938-492d-9c68-a1db3b181691",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_008.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_008.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_008.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/7a026a84-d42e-47be-be10-c76b3ad8f180",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page009" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/7a026a84-d42e-47be-be10-c76b3ad8f180/annotation-page/31c59354-f284-442e-afaa-e370594afc4c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/ae3beb56-475a-4d21-b898-31e892a73bd3",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/7a026a84-d42e-47be-be10-c76b3ad8f180",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_009.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_009.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_009.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/50028058-194e-4e47-ac44-27a357fbd3bb",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page010" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/50028058-194e-4e47-ac44-27a357fbd3bb/annotation-page/c54829da-4ab5-4081-87fe-58812e9aeb55",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/85d333f6-fc37-423c-81fb-2841341a2f3a",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/50028058-194e-4e47-ac44-27a357fbd3bb",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_010.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_010.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_010.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/932450c7-3a47-4b77-a3bb-848133110fcb",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page011" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/932450c7-3a47-4b77-a3bb-848133110fcb/annotation-page/a14b150b-b9dd-4be9-84aa-0138c4b80d2b",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/a60a4229-0871-4daa-aa03-5ef4b7dbcc02",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/932450c7-3a47-4b77-a3bb-848133110fcb",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_011.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_011.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_011.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/227e962d-9613-4a8b-a20b-7755d6354d44",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page012" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/227e962d-9613-4a8b-a20b-7755d6354d44/annotation-page/fa1cdde1-bb79-40bf-af8c-70325ec7cc38",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/b3d7a7c9-a26a-49e3-8237-c2a8cc062f3b",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/227e962d-9613-4a8b-a20b-7755d6354d44",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_012.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_012.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_012.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/7c23bdc5-e391-4e99-b956-3625577132ef",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page013" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/7c23bdc5-e391-4e99-b956-3625577132ef/annotation-page/e3ce7d76-b2e0-4fe4-a79e-b8df6871fad9",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/9688b2de-971b-4379-a67b-e0e8cc704865",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/7c23bdc5-e391-4e99-b956-3625577132ef",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_013.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_013.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_013.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/0e86e293-7abb-4491-b5e5-2d3ce8aca391",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page014" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/0e86e293-7abb-4491-b5e5-2d3ce8aca391/annotation-page/a4e67c00-ee99-4cfb-b41e-676fdcbbef6c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/020a732f-514f-4528-805b-088e65fbeb32",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/0e86e293-7abb-4491-b5e5-2d3ce8aca391",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_014.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_014.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_014.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/76d02017-59e4-4394-b7b8-a3badfae79fc",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page015" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/76d02017-59e4-4394-b7b8-a3badfae79fc/annotation-page/bb1809a1-c959-4f90-bd3b-aca150519531",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/03dc62df-430f-4439-9dde-60d1b5db71a0",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/76d02017-59e4-4394-b7b8-a3badfae79fc",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_015.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_015.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_015.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/33dc8387-d961-4061-b044-a3551769c7d7",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page016" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/33dc8387-d961-4061-b044-a3551769c7d7/annotation-page/e0f45e12-a109-4ab9-a91a-a0264b74a5d1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/92f01ec3-777d-420f-96d6-3a36b71fa639",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/33dc8387-d961-4061-b044-a3551769c7d7",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_016.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_016.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_016.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/5ba0e296-5ce9-411a-8564-214fcedf29c8",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page017" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/5ba0e296-5ce9-411a-8564-214fcedf29c8/annotation-page/574d771a-5a5a-4160-9c27-96e00fa12cf7",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/278cc612-6bed-4e88-b944-da8660271399",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/5ba0e296-5ce9-411a-8564-214fcedf29c8",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_017.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_017.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_017.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/56fcc52f-7082-4a8a-818c-fa5cca095159",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page018" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/56fcc52f-7082-4a8a-818c-fa5cca095159/annotation-page/2f787d05-587b-46b9-8910-a5a5f65f0590",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/cf2e9838-4683-4d81-b64c-b3b07cdf5bec",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/56fcc52f-7082-4a8a-818c-fa5cca095159",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_018.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_018.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_018.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/de5933c4-bdb8-41f6-8930-e8c8a0552103",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page019" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/de5933c4-bdb8-41f6-8930-e8c8a0552103/annotation-page/564005df-fc1b-49b9-b7e9-00071619b9d0",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/ceeb0e03-d39e-4879-b319-fecdb5496530",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/de5933c4-bdb8-41f6-8930-e8c8a0552103",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_019.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_019.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_019.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/2c073190-8af3-4b92-b2c8-f01371b985db",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page020" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/2c073190-8af3-4b92-b2c8-f01371b985db/annotation-page/a311519a-f568-4494-8c08-7e20bd68ef3f",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/fde3e026-062c-489b-a2b8-d07ebe8b026e",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/2c073190-8af3-4b92-b2c8-f01371b985db",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_020.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_020.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_020.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/0d0fb2ce-26ca-423d-828c-b3103d34969e",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page021" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/0d0fb2ce-26ca-423d-828c-b3103d34969e/annotation-page/e496d34b-4a76-4694-8633-1705b2f9569b",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/ecbb5840-e891-4fcb-9492-370c2755eb0c",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/0d0fb2ce-26ca-423d-828c-b3103d34969e",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_021.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_021.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_021.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/c791abf2-3958-4fe2-bd57-f450d6537466",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page022" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/c791abf2-3958-4fe2-bd57-f450d6537466/annotation-page/443dc209-2765-4904-8630-c3044a79ffe1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/de4396f1-bec6-4d89-9a87-7934d6f68f6e",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/c791abf2-3958-4fe2-bd57-f450d6537466",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_021.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_021.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_021.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/571d93e3-e9f8-4ae6-a6cd-b515609fab38",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page023" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/571d93e3-e9f8-4ae6-a6cd-b515609fab38/annotation-page/85fbb053-c90f-446b-8184-2633b7e75f85",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/718bd892-6fef-465e-9364-fbed32f78629",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/571d93e3-e9f8-4ae6-a6cd-b515609fab38",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_023.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_023.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_023.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/b1270048-e914-4f5c-873e-c09335097d80",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page024" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/b1270048-e914-4f5c-873e-c09335097d80/annotation-page/b848acdf-ecc2-4fb2-8d2f-8e2a332f107c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/70605f14-9055-46ec-ab0f-2fb49f25a9f4",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/b1270048-e914-4f5c-873e-c09335097d80",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_024.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_024.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_024.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/4d2ecd05-fa2e-4ef2-b834-86e707cbcf58",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page025" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/4d2ecd05-fa2e-4ef2-b834-86e707cbcf58/annotation-page/147ed25b-c5c8-4f68-a6a1-02449cd7cb95",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/faeded8a-45c9-4c01-9a32-2fb8b106d2eb",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/4d2ecd05-fa2e-4ef2-b834-86e707cbcf58",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_025.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_025.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_025.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/0ac623a6-e055-45ea-91d7-a886afc5677b",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page026" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/0ac623a6-e055-45ea-91d7-a886afc5677b/annotation-page/5d976996-fa11-4fbe-a17d-e7044434f93f",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/c5ddd95a-995d-485c-a35e-ededef549475",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/0ac623a6-e055-45ea-91d7-a886afc5677b",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_026.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_026.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_026.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/c2c1ed71-9d99-4474-afaf-c7af4cd774b5",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page027" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/c2c1ed71-9d99-4474-afaf-c7af4cd774b5/annotation-page/7265713d-5b39-4091-99bd-6cdc711c7242",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/fd50a555-79c1-482d-888c-776cc502a1b3",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/c2c1ed71-9d99-4474-afaf-c7af4cd774b5",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_027.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_027.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_027.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/ef1036ef-523d-4138-a811-58ad157692c6",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page028" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/ef1036ef-523d-4138-a811-58ad157692c6/annotation-page/af3b80e8-b995-4c87-8048-41e3cb227370",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/74785080-bf10-472b-9530-be7c50a81333",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/ef1036ef-523d-4138-a811-58ad157692c6",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_028.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_028.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_028.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/25fc7f04-905f-40e3-88ae-2398e1f6c93b",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page029" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/25fc7f04-905f-40e3-88ae-2398e1f6c93b/annotation-page/98634b83-5c36-4f15-9b33-27bf08acd28f",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/b0d45267-cc9f-40a8-9912-bcfeebc42ccd",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/25fc7f04-905f-40e3-88ae-2398e1f6c93b",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_029.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_029.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_029.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/a9c25af2-e82c-4e05-86d2-bd1fbaa8f1ee",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page030" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/a9c25af2-e82c-4e05-86d2-bd1fbaa8f1ee/annotation-page/595449c4-00cc-411e-a360-1ef6be5546e6",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/880b3340-543e-450d-9e59-c077a738c6e5",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/a9c25af2-e82c-4e05-86d2-bd1fbaa8f1ee",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_030.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_030.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_030.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/2caa774a-4da2-4db3-9643-3ea52b86d93c",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page031" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/2caa774a-4da2-4db3-9643-3ea52b86d93c/annotation-page/86128771-3193-49bf-aebf-565bf34a7ccb",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/08111e60-31cb-4d18-90ae-0e040519cee1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/2caa774a-4da2-4db3-9643-3ea52b86d93c",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_031.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_031.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_031.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/9c121587-c070-45ab-978e-38fe915905a3",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page032" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/9c121587-c070-45ab-978e-38fe915905a3/annotation-page/556a95e3-584c-4f47-a5d8-f38314350a5c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/b09c72ca-de5a-4d79-8063-388b71c395af",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/9c121587-c070-45ab-978e-38fe915905a3",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_032.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_032.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_032.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/c4fd11b4-a84d-4687-be74-7015258d125b",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page033" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/c4fd11b4-a84d-4687-be74-7015258d125b/annotation-page/ea3cd917-72f8-41f9-bb23-f132ca64ff29",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/60da651f-781a-4c5e-b430-02cd186f327c",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/c4fd11b4-a84d-4687-be74-7015258d125b",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_033.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_033.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_033.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/121eff5a-e005-4cee-8798-f184c7e0ba3a",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page034" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/121eff5a-e005-4cee-8798-f184c7e0ba3a/annotation-page/6b33eb8c-8c1c-46a5-8871-ba324815accf",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/afcf473b-9185-4fdf-a159-ad1ca63c2361",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/121eff5a-e005-4cee-8798-f184c7e0ba3a",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_034.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_034.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_034.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/871e317e-bbfa-4b3e-8ca7-1f8aef050b67",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page035" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/871e317e-bbfa-4b3e-8ca7-1f8aef050b67/annotation-page/7b12b175-248b-473d-a217-2d530ad2f75d",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/d973b39a-8ada-4559-ae74-b8f18aa59f33",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/871e317e-bbfa-4b3e-8ca7-1f8aef050b67",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_035.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_035.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_035.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/fa582b60-d020-4e39-82f4-25e5458867e8",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page036" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/fa582b60-d020-4e39-82f4-25e5458867e8/annotation-page/05156de9-b181-4cfc-b230-c8ab77cb1767",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/86d2456b-6636-4c0f-8bcc-1832bdbcf9e1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/fa582b60-d020-4e39-82f4-25e5458867e8",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_036.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_036.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_036.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/3bdfb33f-0f54-4638-9ab2-29e8dc6a4998",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page037" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/3bdfb33f-0f54-4638-9ab2-29e8dc6a4998/annotation-page/253c9b90-edbf-4fde-90d0-2a43e0c484a2",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/2f208996-ccec-4d5e-95c5-d7f7185ba39a",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/3bdfb33f-0f54-4638-9ab2-29e8dc6a4998",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_037.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_037.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_037.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/5d7d1aae-6b8a-48fd-a65b-5d864ec13560",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page038" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/5d7d1aae-6b8a-48fd-a65b-5d864ec13560/annotation-page/015d4a59-2676-4f8b-8354-5f8c22f38485",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/8401f751-1841-486f-a3b2-327993601c44",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/5d7d1aae-6b8a-48fd-a65b-5d864ec13560",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_038.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_038.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_038.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/b85d3f4a-693b-4b38-92b0-dcdff2c90320",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page039" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/b85d3f4a-693b-4b38-92b0-dcdff2c90320/annotation-page/b91507b9-0a67-4042-bebd-da1e18e4687b",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/99a5c9d6-9fd3-432c-ac13-b5565a8e0a8a",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/b85d3f4a-693b-4b38-92b0-dcdff2c90320",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_039.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_039.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_039.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/2cb3a6c6-decb-4287-b175-d6e380137fc7",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page040" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/2cb3a6c6-decb-4287-b175-d6e380137fc7/annotation-page/8698c48c-12bb-4845-ace8-8b1bf5a94646",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/45005d87-c37b-4060-a941-8589863e3194",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/2cb3a6c6-decb-4287-b175-d6e380137fc7",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_040.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_040.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_040.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/8c05112b-059c-4216-9045-ac409f03a525",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page041" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/8c05112b-059c-4216-9045-ac409f03a525/annotation-page/3f15fbd9-6aa7-4737-822c-1f97e660d322",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/7aa9f499-5023-4935-9bad-38f04b38f247",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/8c05112b-059c-4216-9045-ac409f03a525",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_041.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_041.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_041.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/9b94c10a-ee61-4fc5-9ef9-11ef3de156f0",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page042" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/9b94c10a-ee61-4fc5-9ef9-11ef3de156f0/annotation-page/3ec3f919-4cb2-4592-a4dd-38df1379a177",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/1d0f97e2-1cfc-4c73-add6-f8f94be86796",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/9b94c10a-ee61-4fc5-9ef9-11ef3de156f0",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_042.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_042.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_042.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/e0ae7b41-51f2-4207-abb3-6333f03f150d",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page043" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/e0ae7b41-51f2-4207-abb3-6333f03f150d/annotation-page/c40e035a-4110-4ae7-93b5-545c52272920",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/38f5c711-6e66-4eb3-a691-ac0f428c6f66",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/e0ae7b41-51f2-4207-abb3-6333f03f150d",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_043.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_043.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_043.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/c6565204-f528-4311-a3bc-e48fd34e44cd",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page044" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/c6565204-f528-4311-a3bc-e48fd34e44cd/annotation-page/ecd1fb21-fc3f-45e9-857e-7f545aeab19a",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/842c677c-1a86-4f90-bfb4-1043e1306ef8",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/c6565204-f528-4311-a3bc-e48fd34e44cd",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_044.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_044.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_044.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/98f1ea08-4df2-4a4a-ba33-d61093b5d651",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page045" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/98f1ea08-4df2-4a4a-ba33-d61093b5d651/annotation-page/ba400575-9a85-4c8f-bed9-d88f3c9350ba",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/1aa8e238-c69f-4775-9260-e02db1dee4ad",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/98f1ea08-4df2-4a4a-ba33-d61093b5d651",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_045.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_045.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_045.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/7f2ae537-bc2b-40c1-bcf1-d524a1e11745",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page046" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/7f2ae537-bc2b-40c1-bcf1-d524a1e11745/annotation-page/466138e4-07c1-4a2f-87e9-89056bee3b13",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/bdc431ae-67c8-41f7-8a48-6a5d01bc8fce",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/7f2ae537-bc2b-40c1-bcf1-d524a1e11745",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_046.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_046.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_046.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/f4611b5a-911c-494f-9aa7-0d7112846605",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page047" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/f4611b5a-911c-494f-9aa7-0d7112846605/annotation-page/95dcfc78-4295-40eb-90d7-f8047c83d6e4",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/34320052-a887-45f1-b1f8-20207e6ec2c0",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/f4611b5a-911c-494f-9aa7-0d7112846605",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_047.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_047.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_047.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/795e4682-bfe5-44ad-9c1b-4bbfcbb6cfe5",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page048" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/795e4682-bfe5-44ad-9c1b-4bbfcbb6cfe5/annotation-page/0974901d-5373-420e-9c12-eb3654fc776e",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/9d2163bc-e0b6-481c-8865-0a976150e9db",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/795e4682-bfe5-44ad-9c1b-4bbfcbb6cfe5",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_048.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_048.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_048.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/26297668-70a9-4976-9907-5ca3613cecfe",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page049" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/26297668-70a9-4976-9907-5ca3613cecfe/annotation-page/1830e7d1-432f-4c14-bd35-734ef93f54d1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/ba6ae633-1f17-4a08-ad4c-70890395b1f1",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/26297668-70a9-4976-9907-5ca3613cecfe",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_049.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_049.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_049.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "/config/manifest-templates/blank.json/canvas/f8bf83e2-724b-4c7f-9024-4c9594323bd7",
+    "type" : "Canvas",
+    "height" : 1650,
+    "width" : 1275,
+    "label" : {
+      "en" : [ "Hikayat_Aceh_Page050" ]
+    },
+    "items" : [ {
+      "id" : "/config/manifest-templates/blank.json/canvas/f8bf83e2-724b-4c7f-9024-4c9594323bd7/annotation-page/0624d7e1-4173-42bf-86fe-7f39fbac9ffc",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "/config/manifest-templates/blank.json/annotation/154729a0-78ff-4162-b4aa-eb560c0dd7b5",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "/config/manifest-templates/blank.json/canvas/f8bf83e2-724b-4c7f-9024-4c9594323bd7",
+        "body" : {
+          "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_050.jpg/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 1650,
+          "width" : 1275,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_050.jpg",
+            "protocol" : "http://iiif.io/api/image",
+            "width" : 1275,
+            "height" : 1650,
+            "sizes" : [ {
+              "width" : 80,
+              "height" : 103
+            }, {
+              "width" : 159,
+              "height" : 206
+            }, {
+              "width" : 319,
+              "height" : 413
+            }, {
+              "width" : 638,
+              "height" : 825
+            }, {
+              "width" : 1275,
+              "height" : 1650
+            } ],
+            "tiles" : [ {
+              "width" : 512,
+              "height" : 512,
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ]
+            } ],
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 2103750,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ],
+            "id" : "http://127.0.0.1:8182/iiif/2/HK_ACH_050.jpg"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
+}
